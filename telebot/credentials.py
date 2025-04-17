@@ -11,3 +11,6 @@ bot_token = os.getenv(
 )
 bot_user_name = os.getenv("TELEGRAM_BOT_USERNAME", "the username you entered")
 url = os.getenv("WEBHOOK_URL", "https://localhost")
+
+# Dify API credentials
+dify_api_key = os.getenv("DIFY_API_KEY", "your_dify_api_key_here")
