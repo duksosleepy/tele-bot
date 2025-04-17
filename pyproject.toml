@@ -5,7 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "flask>=3.1.0",
     "httpx>=0.28.1",
+    "python-dotenv>=1.1.0",
     "python-telegram-bot>=22.0",
+    "starlette>=0.46.2",
+    "uvicorn>=0.34.1",
 ]
